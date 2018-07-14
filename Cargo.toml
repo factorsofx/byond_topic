@@ -1,0 +1,16 @@
+[package]
+name = "byond_topic"
+version = "0.1.0"
+authors = ["Collin Burroughs <collin@indyburroughs.net>"]
+
+[lib]
+name = "byondtopic"
+path = "src/lib.rs"
+
+[[bin]]
+name = "topicreq"
+path = "src/bin.rs"
+
+[dependencies]
+structure = "0.1"
+clap = "2"
